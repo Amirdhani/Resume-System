@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background: white !important;
+  }
+  .print\:hidden {
+    display: none !important;
+  }
+  .print\:block {
+    display: block !important;
+  }
+  .print\:w-full {
+    width: 100% !important;
+  }
+  .print\:p-0 {
+    padding: 0 !important;
+  }
+  /* Hide header/footer if you want */
+  header, footer {
+    display: none !important;
+  }
+  main {
+    margin: 0 !important;
+    display: block;
+  }
+  aside {
+    display: none !important;
+  }
+  section {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}

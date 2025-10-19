@@ -4,6 +4,10 @@ This project was developed as part of the **Resume System Trial Task** — a cha
 
 ---
 
+# Live Demo: https://resume-system.netlify.app/
+
+---
+
 ## 🎯 Task Objective
 
 The goal of this trial was to design and implement one **core component** of the larger Resume System ecosystem.
